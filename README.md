@@ -34,22 +34,13 @@ Write the detailed procedure here
 
 ## Program:
 
-
 ## HALFSUBTRACTOR:
-module halfsubtractor(a,b,diff, borrow)
-input a,b;
-output diff, borrow;
-assign diff=a^b;
-assign borrow=~a&b;
-endmodule
+![WhatsApp Image 2023-12-18 at 15 28 32_cf906c48](https://github.com/MathiyazhaganDhanapal/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/145981115/d70ad12b-d954-49fc-a3d3-5859a22f6955)
+
 
 ## FULLSUBTRACTOR:
-module fullsubtractor(a,b,c,diff, borrow)
-input a,b,c;
-output diff, borrow;
-assign diff=a^b^c;
-assign borrow=~a&b|c&~(a^b);
-endmodule
+![WhatsApp Image 2023-12-18 at 15 28 32_0ad89fd6](https://github.com/MathiyazhaganDhanapal/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/145981115/8b31382b-2965-49b9-95be-f26a3b26caf6)
+
 
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
 

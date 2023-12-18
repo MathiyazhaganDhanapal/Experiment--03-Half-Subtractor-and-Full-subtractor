@@ -34,7 +34,7 @@ Write the detailed procedure here
 
 ## Program:
 
-## HALFSUBTRACTOR:
+## HALF SUBTRACTOR:
 module halfsubtractor(a,b,diff,borrow);
 input a,b;
 output diff,borrow;
@@ -43,7 +43,7 @@ assign borrow=~a&b;
 endmodule
 
 
-## FULLSUBTRACTOR:
+## FULL SUBTRACTOR:
 module fullsubtractor(a,b,c,diff,borrow);
 input a,b,c;
 output diff,borrow;
@@ -55,28 +55,28 @@ Program to design a half subtractor and full subtractor circuit and verify its t
 
 ## Truthtable:
 
-## HALFSUBTRACTOR:
+## HALF SUBTRACTOR:
 ![286511396-8e10cf55-5b1a-4089-b750-49f6acdad175](https://github.com/MathiyazhaganDhanapal/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/145981115/e60a57e9-589b-4915-a9ba-16dbb3feb314)
 
-## FULLSUBTRACTOR:
+## FULL SUBTRACTOR:
 ![dd4f6c7b-177e-4325-b279-4b661ec0b734](https://github.com/MathiyazhaganDhanapal/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/145981115/67107381-efa8-4560-93e9-3f954852e537)
 
 ##  RTL realization:
 
-## HALFSUBTRACTOR:
+## HALF SUBTRACTOR:
 ![291159722-c4b05717-c38c-402f-ae56-aab9da4e65d1](https://github.com/MathiyazhaganDhanapal/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/145981115/8d83313f-1fad-4caf-b7d7-53df86e3dc8c)
 
 
-## FULLSUBTRACTOR:
+## FULL SUBTRACTOR:
 ![c634113c-b4f9-45a3-8d45-c533891d187e](https://github.com/MathiyazhaganDhanapal/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/145981115/92e06157-01b5-4bb3-9aac-7496ade31eff)
 
 
 ## Timing diagram :
 
-## HALFSUBTRACTOR:
+## HALF SUBTRACTOR:
 ![286511423-7b10a3ee-8c3b-49a4-88c2-95059ef32a3e](https://github.com/MathiyazhaganDhanapal/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/145981115/ce480e39-809a-40e3-bc6f-15979cdbcba4)
 
-## FULLSUBTRACTOR:
+## FULL SUBTRACTOR:
 ![ea854b7e-45bd-4699-8d4f-06b431c3dd53](https://github.com/MathiyazhaganDhanapal/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/145981115/c6faabc3-7419-48e3-848c-ee1c2804ae5b)
 
 

@@ -43,7 +43,7 @@ assign borrow=~a&b;
 endmodule
 
 ## FULL SUBTRACTOR:
-module fullsubtractor(a,b,c,diff,borrow);
+~~~~module fullsubtractor(a,b,c,diff,borrow);
 input a,b,c;
 output diff,borrow;
 assign diff=a^b^c;

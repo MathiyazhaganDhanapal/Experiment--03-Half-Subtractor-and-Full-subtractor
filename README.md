@@ -34,18 +34,19 @@ Write the detailed procedure here
 
 ## Program:
 
-## HALF SUBTRACTOR:
-~~~module halfsubtractor(a,b,diff,borrow);
+
+## HALFSUBTRACTOR:
+module halfsubtractor(a,b,diff, borrow)
 input a,b;
-output diff,borrow;
+output diff, borrow;
 assign diff=a^b;
 assign borrow=~a&b;
 endmodule
 
-## FULL SUBTRACTOR:
-~~~~module fullsubtractor(a,b,c,diff,borrow);
+## FULLSUBTRACTOR:
+module fullsubtractor(a,b,c,diff, borrow)
 input a,b,c;
-output diff,borrow;
+output diff, borrow;
 assign diff=a^b^c;
 assign borrow=~a&b|c&~(a^b);
 endmodule

@@ -48,7 +48,7 @@ input a,b,c;
 output diff,borrow;
 assign diff=a^b^c;
 assign borrow=~a&b|c&~(a^b);
-endmodule~~~
+endmodule
 
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
 
